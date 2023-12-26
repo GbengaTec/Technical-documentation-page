@@ -81,7 +81,7 @@ code {
   }
   #navbar {
   background-color: white;
-    position: fixed;
+    position: absolute;
     top:0;
     padding:0;
     margin: 0;
@@ -97,7 +97,7 @@ code {
     margin-top: 270px;
   }
 }
-@media only screen and (max-width : 400px){
+@media only screen and (max-width: 400px){
   #main-doc {
     margin-left: -10px;
   }
